@@ -1,0 +1,243 @@
+body{
+        background-color:white;
+}
+#leftDiv img{
+     max-height: 100px;
+     max-width: 100px;
+     float: right;
+}
+#rightDiv img{
+    max-height: 100px;
+    max-width: 100px;
+    float: right;
+}
+#leftDiv{
+    font-family: Georgia;
+    font-style: oblique;
+    font-weight: bold;
+}
+#rightDiv{
+    font-family: Georgia;
+    font-style: oblique;
+    font-weight: bold;
+}
+h2{
+    margin-top: -70px;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+li{
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+h3{
+    position: relative;
+    animation: myMove 3s infinite;
+}
+li:hover{
+        animation: myRotate 0.5s;
+
+}
+.navbar-brand{
+    font-weight: bolder;
+}
+.navbar-brand:hover{
+    animation: myRotate 0.5s;
+}
+input:hover{
+    background-color: bisque;
+}
+.btn:hover{
+    transform: scale(1.25,1.25);
+}
+.navbar-brand:hover{
+    transform: scale(1.25,1.25);
+}
+li:hover{
+    transform: scale(1.25,1.25);
+}
+#rightDiv img:hover{
+    transform: scale(2,2);
+}
+.container img{
+   margin-top: -120px;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    margin-top: 120px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right:20px;
+    padding-top: -100000px;
+    box-shadow:10px 10px 5px #8e8888;
+}
+footer:hover{
+    animation: fadeout 3s;
+}
+.container img{
+    margin-top:-50px;
+    margin-bottom: 60px;
+}
+.container img:hover{
+    animation: myMove 3s infinite;
+    -webkit-animation: myMove 3s infinite;
+    -moz-animation: myMove 3s infinite;
+    
+}
+.ftr p{
+    text-align: left;
+    float: left;
+}
+h1{
+    position: relative;
+    animation: myMover 6s infinite;
+}
+
+
+/*----------Animation----------*/
+
+
+@keyframes fadeIn{from {opacity: 0;} to{opacity: 1;}}
+@-webkit-keyframes fadeIn{from {opacity: 0;} to{opacity: 1;}}
+@-moz-keyframes fadeIn{from {opacity: 0;} to{opacity: 1;}}
+
+.fadein{
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+}
+@keyframes fadeOut{from {opacity: 1;} to{opacity: 0;}}
+@-webkit-keyframes fadeOut{from {opacity: 1;} to{opacity: 0;}}
+@-moz-keyframes fadeOut{from {opacity: 1;} to{opacity: 0;}}
+
+.fadeout{
+    opacity: 1;
+     animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+}
+.myfadeout:hover{
+    opacity: 1;
+     animation: fadeOut ease-in 1;
+    -webkit-animation: fadeOut ease-in 1;
+    -moz-animation: fadeOut ease-in 1;
+    
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+}
+
+
+/*Rotate*/
+@keyframes myRotate{
+    0% {transform: rotate(0deg);}
+    10%{transform: rotate(36deg);}
+    20%{transform: rotate(72deg);}
+    30%{transform: rotate(108deg);}
+    40%{transform: rotate(144deg);}
+    50%{transform: rotate(180deg);}
+    60%{transform: rotate(216deg);}
+    70%{transform: rotate(252deg);}
+    80%{transform: rotate(288deg);}
+    90%{transform: rotate(324deg);}
+    100%{transform: rotate(360deg);}
+}
+@-webkit-keyframes myRotate{
+    0% {transform: rotate(0deg);}
+    10%{transform: rotate(36deg);}
+    20%{transform: rotate(72deg);}
+    30%{transform: rotate(108deg);}
+    40%{transform: rotate(144deg);}
+    50%{transform: rotate(180deg);}
+    60%{transform: rotate(216deg);}
+    70%{transform: rotate(252deg);}
+    80%{transform: rotate(288deg);}
+    90%{transform: rotate(324deg);}
+    100%{transform: rotate(360deg);}
+}
+@-moz-keyframes myRotate{
+    0% {transform: rotate(0deg);}
+    10%{transform: rotate(36deg);}
+    20%{transform: rotate(72deg);}
+    30%{transform: rotate(108deg);}
+    40%{transform: rotate(144deg);}
+    50%{transform: rotate(180deg);}
+    60%{transform: rotate(216deg);}
+    70%{transform: rotate(252deg);}
+    80%{transform: rotate(288deg);}
+    90%{transform: rotate(324deg);}
+    100%{transform: rotate(360deg);}
+}
+
+/*Move*/
+@keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 350px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+@-webkit-keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+@-moz-keyframes myMove{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@keyframes myMover{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 350px;}
+    75% {left: 225px;}
+    85% {left: -91px}
+    100% {left: 0px;}
+}
+@-webkit-keyframes myMover{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: -91px;}
+}
+@-moz-keyframes myMover{
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: -91px;}
+}
