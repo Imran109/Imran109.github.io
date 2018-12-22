@@ -1,0 +1,67 @@
+body{
+background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/hHeEEOX/playing-cards-background_vpmbfxdtg__F0000.png");
+}
+
+
+h1{
+    color: red;
+  }
+  h4{
+    color: red;
+  }
+  p{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  button{
+    font-weight: bolder;
+    color: grey;
+  }
+  #para{
+    color: blue;
+  }
+  #newgame:hover{
+   background-color:blanchedalmond;
+   transform: scale(1.5,1.5); 
+  }
+  #stay:hover{
+   background-color:blanchedalmond;
+   transform: scale(1.5,1.5); 
+  }
+  #hit:hover{
+   background-color:blanchedalmond;
+   transform: scale(1.5,1.5); 
+  }
+  #rules:hover{
+   background-color:blanchedalmond;
+   transform: scale(1.5,1.5); 
+  }
+  #rules{
+    color: grey;
+  }
+  
+  #goback:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.5,1.5);
+  }
+  
+  #footr{
+      font-size: 14px;
+      font-weight: lighter;
+  }
+  #ruless:hover{
+      animation:none;
+  }
+  .plz:hover{
+      animation: none;
+  }
+  #playy:hover{
+      background-color: yellowgreen;
+      
+    }
+    #playy{
+        font-weight: bolder;
+    }
+  
+  
+  
