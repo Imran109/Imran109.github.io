@@ -6,7 +6,7 @@ form.addEventListener("submit",event=>{
    let msgError=document.getElementById("msg");
    let email=form.elements["Email"];
    let emailError=document.getElementById("emailerror");
-   if(user.value.length <5){
+   if(user.value.length <4){
     event.preventDefault();
    userError.textContent="Invalid entry-minimum 5 characters";
    userError.style.color="blue";
