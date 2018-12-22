@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -25,33 +26,34 @@
             </header>
          <div id="WelcomeDiv">
       <!-- <form id="contact_form" name="contact_form" action="PostEmail.php" method="post"> -->
-             <form id="contact_form" name="contact_form" action="https://formspree.io/mohamedaadil.aadil@gmail.com" method="post">
+             <form id="fform" name="fform" action="https://formspree.io/mohamedaadil.aadil@gmail.com" method="post">
         <fieldset>
            <legend>Contact Us!</legend>
-               <table>
-                    <tr>
-                           <td><label for="Name">Name</label></td>
-                           <td><input type="text" name="Name" id="Name" placeholder="Enter Name" autofocus="autofocus"/></td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">Email</label></td>
-                            <td><input type="text" name="Email" id="Email" placeholder="Enter a valid mail id"/></td>
-                        </tr>
-                        <tr>
-                            <td><label for="Message">Message</label></td>
-                            <td><textarea name="Message" id="Message" cols="50" rows="5" placeholder="Enter Message"></textarea></td>   
-                        </tr>
-                        <tr>       
-                               <td></td>
-                               <td><input type="reset" id="Reset" name="Reset" value="Reset"/><input type="submit" id="submit" name="Send" value="Send"/></td>
-                    </tr>
-               </table>
+           <table>
+            <tr>
+                   <td><label for="Name">Name</label></td>
+                   <td><input type="text" name="Name" id="Name" placeholder="Enter Name" autofocus="autofocus"/><br><br><span id="user-errorr"></span></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="Email" id="Email" placeholder="Enter a valid mail id"/><br><br><span id="emailerror"></span></td>
+                </tr>
+                <tr>
+                    <td><label for="Message">Message</label></td>
+                    <td><input name="Message" id="Message" placeholder="Enter Message"></input><br><br><span id="msg"></span></td>   
+                </tr>
+                <tr>       
+                       <td></td>
+                       <td><input type="reset" id="Reset" name="Reset" value="Reset"/><input type="submit" id="submit" name="Send" value="Send"/></td>
+            </tr>
+       </table>
            </fieldset>
         </form>
        </div>
     </div>
     <div class="foot"><footer class="myfadeout">Copyright© 2019 P.S.M.I®<br>This webpage is developed by Mohamed Imran P S<br>Visit <a href="about.html">About</a> for further information</footer><a href="#"><img src="logo.png" height="50" width="70"></a></div>
             </div>
-    <script src="contactusform.js"></script>
+            <script src="contactusform.js"></script>
 </body>
 </html>
