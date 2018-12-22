@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <link rel="icon" type="image/png" href="logo.png">
+
+
+</head>
+<body class="fadein">
+    <div class="container">
+        <div class="jumbotron"></div>
+            <header>
+                <div id="logo"><a href="#"><img src="logo.png" height="205.25" width="310"></a></div>
+                <h6>
+                    <img src="Sketch c.png" height="205.25" width="300"></h6>
+                <ul class="nav_menu">
+                    <li><a href="index.html">Home</a>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+                <li><a href="bootstrap.html">Mobile View</a></li>
+                </ul>
+                <div class="clear"></div>
+            </header>
+         <div id="WelcomeDiv">
+      <!-- <form id="contact_form" name="contact_form" action="PostEmail.php" method="post"> -->
+             <form id="contact_form" name="contact_form" action="https://formspree.io/mohamedaadil.aadil@gmail.com" method="post">
+        <fieldset>
+           <legend>Contact Us!</legend>
+               <table>
+                    <tr>
+                           <td><label for="Name">Name</label></td>
+                           <td><input type="text" name="Name" id="Name" placeholder="Enter Name" autofocus="autofocus"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="text" name="Email" id="Email" placeholder="Enter a valid mail id"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Message">Message</label></td>
+                            <td><textarea name="Message" id="Message" cols="50" rows="5" placeholder="Enter Message"></textarea></td>   
+                        </tr>
+                        <tr>       
+                               <td></td>
+                               <td><input type="reset" id="Reset" name="Reset" value="Reset"/><input type="submit" id="submit" name="Send" value="Send"/></td>
+                    </tr>
+               </table>
+           </fieldset>
+        </form>
+       </div>
+    </div>
+    <div class="foot"><footer class="myfadeout">Copyright© 2019 P.S.M.I®<br>This webpage is developed by Mohamed Imran P S<br>Visit <a href="about.html">About</a> for further information</footer><a href="#"><img src="logo.png" height="50" width="70"></a></div>
+            </div>
+</body>
+</html>
