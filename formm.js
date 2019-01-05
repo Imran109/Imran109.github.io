@@ -11,7 +11,7 @@ form.addEventListener("submit",event=>{
    user.style.borderColour="yellow";
    user.focus();
    }
-   if((user.value.length>4)&&(user.value!=="imranps"||user.value!=="S Priya")){
+   if((user.value.length>4)&&(user.value!=="imranps")){
     userError.textContent="Access denied.Contact P.S.M.I to gain access";
     event.preventDefault();
     user.focus();
